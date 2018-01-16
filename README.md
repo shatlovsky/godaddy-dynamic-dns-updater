@@ -19,6 +19,11 @@ You can:
 `cp gddu.py /usr/local/bin`
 `cp etc/cron.d/gddu /etc/cron.d`
 
+## See also
+
+* GoDaddy API documentation: https://developer.godaddy.com/doc
+* GoDaddy key generation: https://developer.godaddy.com/keys/
+
 ## Questions?
 
 If you have any questions, feel free to reach me directly at shatlovsky@gmail.com
