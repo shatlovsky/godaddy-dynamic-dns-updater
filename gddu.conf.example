@@ -1,0 +1,19 @@
+[production]
+; Get your production API keys:
+; https://developer.godaddy.com/keys/
+api_url=https://api.godaddy.com
+api_key=MY_PRODUCTION_KEY
+api_secret=MY_PRODUCTION_SECRET
+domain=example.com
+hostname=myhostname
+
+
+[test]
+; Get your test API keys:
+; https://developer.godaddy.com/keys/
+api_url=https://api.ote-godaddy.com
+api_key=MY_PRODUCTION_KEY
+api_secret=MY_PRODUCTION_SECRET
+domain=example.com
+hostname=myhostname
+
