@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import configparser
 import json
 import os
@@ -46,7 +47,12 @@ class GoDaddyDNSUpdater:
         res.read()
 
 def main():
-    GoDaddyDNSUpdater().update_a_record()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--test', action='store_true', help='Run in "test" environment (by default, it runs in "production"')
+    args = parser.parse_args()
+    mode = 'test' if args.test else 'production'
+
+    GoDaddyDNSUpdater(mode).update_a_record()
 
 if __name__ == "__main__":
     main()
