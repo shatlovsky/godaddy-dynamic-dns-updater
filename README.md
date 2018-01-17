@@ -24,12 +24,10 @@ You can:
 * GoDaddy API documentation: https://developer.godaddy.com/doc
 * GoDaddy key generation: https://developer.godaddy.com/keys/
 
-## Bugs? Suggestions?
+## Bugs? Suggestions? Questions?
 
 Please report bugs on the github project page:
 https://github.com/shatlovsky/godaddy-dynamic-dns-updater
-
-## Questions?
 
 If you have any questions, feel free to reach me directly at shatlovsky@gmail.com
 
